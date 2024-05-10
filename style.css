@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenido{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 40px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contenido .lado-izq {
+    position: relative;
+    background-color: #588157;
+    padding: 40px;
+}
+
+.contenido .lado-der {
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+.textoPerfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.textoPerfil .imgBox{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    bottom: 15px;
+    display: flex;
+
+}
+
+.lado-izq h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.contenido h5{
+    color: #A3B18E;
+}
+
+.contacto{
+    padding-top: 20px;
+}
+
+.contacto ul{
+    position: relative;
+    margin: 0px 10px 10px;
+}
+
+.contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contacto ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #3A5A40;
+}
+
+.contacto ul li span{
+    color: white;
+    font-size: 12px;
+}
+
+.titulo{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.titulo2{
+    color: #344E41;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.sobre-mi{
+    margin-bottom: 18px;
+}
+
+p{
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sobre-mi ul li{
+    color: #333;
+    margin: 1px 18px;
+    margin-bottom: 18px;
+}
+
+.contenido2 {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+.habilidades {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+.html {width: 15%; background-color: #588157;}
+.css {width: 13%; background-color: #588157;}
+.js {width: 1%; background-color: #588157;}
+
+
